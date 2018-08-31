@@ -2,12 +2,12 @@
 
 def selectionSort():
 
-    n = len(aList)
+    enum = len(aList)
     # go through list elements, swap min_num
     
-    for i in range(n): # for going through sorted list.
+    for i in range(enum): # for going through sorted list.
         min_index = i
-        for j in range(i+1, n): # swap for smallest num in unsorted list
+        for j in range(i+1, enum): # swap for smallest num in unsorted list
             if aList[j] < aList[min_index]:
                 min_index = j
 
